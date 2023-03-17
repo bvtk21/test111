@@ -8,7 +8,7 @@ import time
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Set up the OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Define the start command handler
 def start(update, context):
