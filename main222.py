@@ -9,7 +9,7 @@ from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Set up the OpenAI API key
-api_key = os.environ.setdefault("openai.api_key", "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")
+api_key = os.environ.setdefault("openai.api_key", "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")
 openai.api_key = api_key
 
 if openai.api_key is None:
