@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 engines = openai.Engine.list()
 print(engines)
